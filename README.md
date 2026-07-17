@@ -2,6 +2,26 @@
 
 A modern, responsive business website built for **TMT Arts**, showcasing premium GRC, Interior Design, Exterior Design, POP, and Decorative Solutions.
 
+## 📸 Website Preview
+
+### 🏠 Home
+
+![Home](./screenshots/home.png)
+
+---
+
+### 🛠️ Services
+
+![Services](./screenshots/services.png)
+
+---
+
+### 📞 Contact
+
+![Contact](./screenshots/contact.png)
+
+---
+
 ## ✨ Features
 
 - Modern responsive UI
@@ -23,10 +43,15 @@ A modern, responsive business website built for **TMT Arts**, showcasing premium
 
 ## 📁 Project Structure
 
-```
+```text
 tmt-arts/
 │
 ├── public/
+├── screenshots/
+│   ├── home.png
+│   ├── services.png
+│   └── contact.png
+│
 ├── src/
 │   ├── assets/
 │   ├── components/
@@ -36,30 +61,31 @@ tmt-arts/
 │   └── style.css
 │
 ├── package.json
-└── vite.config.js
+├── vite.config.js
+└── README.md
 ```
 
 ## 🚀 Getting Started
 
-Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/Aaron4804/tmt-arts.git
 ```
 
-Install dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-Run locally
+Run the development server:
 
 ```bash
 npm run dev
 ```
 
-Build for production
+Build for production:
 
 ```bash
 npm run build
