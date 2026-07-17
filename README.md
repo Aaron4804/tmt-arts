@@ -1,16 +1,88 @@
-# React + Vite
+# TMT Arts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive business website built for **TMT Arts**, showcasing premium GRC, Interior Design, Exterior Design, POP, and Decorative Solutions.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Modern responsive UI
+- Hero landing section
+- Services section
+- Product showcase
+- Project/Transformation section
+- Contact information
+- WhatsApp integration
+- Mobile-friendly design
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- HTML5
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+tmt-arts/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── style.css
+│
+├── package.json
+└── vite.config.js
+```
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/Aaron4804/tmt-arts.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run locally
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+## 🚧 Status
+
+This project is currently under active development.
+
+Upcoming improvements include:
+
+- Improved product gallery
+- Enhanced animations
+- Additional project showcase
+- UI refinements
+- Performance optimization
+
+## 👨‍💻 Developed By
+
+**Aaron Vaz**
+
+GitHub: https://github.com/Aaron4804
+
+---
+
+⭐ If you like this project, consider giving it a star.
