@@ -1,5 +1,16 @@
+# dependencies
+node_modules/
+
+# production build
+dist/
+
+# local env
+*.local
+
+# VS Code
 .vscode/*
 !.vscode/extensions.json
+
 .idea
 .DS_Store
 *.suo
